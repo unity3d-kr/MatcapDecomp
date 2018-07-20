@@ -4,13 +4,14 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Matcap01
-  m_Shader: {fileID: 4800000, guid: 429bc0b1438484a40b1d0244652b0e31, type: 3}
-  m_ShaderKeywords: _USELIGHTROTATION_ON
-  m_LightmapFlags: 4
+  m_Shader: {fileID: 4800000, guid: 2697bfa456abd8b4192a9e29ae5d440e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -50,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: b1543f7f18f30634db0cbbef1b5ce651, type: 3}
+        m_Texture: {fileID: 2800000, guid: cc24b8297076fd44bbb2bc5ca8e3d284, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -71,6 +72,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _inLowFreqFront:
         m_Texture: {fileID: 2800000, guid: 12b5c9cf9d718844885b8f8bd20e1e43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -97,10 +102,11 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _UseLightRotation: 1
+    - _UseLightRotation: 0
     - _ZWrite: 1
-    - _rotLightPhi: 0
-    - _rotLightTheta: 0
+    - __dirty: 0
+    - _rotLightPhi: 180
+    - _rotLightTheta: 180
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

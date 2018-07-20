@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Matcap01_2
-  m_Shader: {fileID: 4800000, guid: 2697bfa456abd8b4192a9e29ae5d440e, type: 3}
+  m_Name: Matcap02_2
+  m_Shader: {fileID: 4800000, guid: d9bcb6584ed2b0248a7f67e9a77e808e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -42,6 +42,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Matcap:
+        m_Texture: {fileID: 2800000, guid: f707a306f97925148b1593ae054f061a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -51,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: cc24b8297076fd44bbb2bc5ca8e3d284, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -105,8 +109,8 @@ Material:
     - _UseLightRotation: 0
     - _ZWrite: 1
     - __dirty: 0
-    - _rotLightPhi: 180
-    - _rotLightTheta: 180
+    - _rotLightPhi: 0
+    - _rotLightTheta: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
