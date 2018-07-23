@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Matcap02_1
+  m_Name: TraditionalMatcap02_1
   m_Shader: {fileID: 4800000, guid: d9bcb6584ed2b0248a7f67e9a77e808e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
