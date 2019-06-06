@@ -1,4 +1,4 @@
-# MatCap Decomposition for Dynamic Appearance Manipulation
+# MatCap Decomposition for Dynamic Appearance Manipulation on Unity
 https://hal.inria.fr/hal-01164590
 
 ## Unity Materials
